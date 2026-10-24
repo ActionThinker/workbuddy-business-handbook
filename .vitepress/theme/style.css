@@ -1,0 +1,30 @@
+/* Design Token — DEV_BRIEF §5 暗色体系
+   bg #0e1120 / card #171c30 / line #2a3150
+   txt #e9ecf6 / sub #98a1c0 / acc #5b8cff
+   ok #37d6a0 / wait #ffb454 / no #ff6b6b
+   eco #28b894（WorkBuddy 生态识别色点缀） */
+
+:root {
+  --vp-c-bg: #0e1120;
+  --vp-c-bg-alt: #0e1120;
+  --vp-c-bg-soft: #171c30;
+  --vp-c-divider: #2a3150;
+  --vp-c-text-1: #e9ecf6;
+  --vp-c-text-2: #98a1c0;
+  --vp-c-brand-1: #5b8cff;
+  --vp-c-brand-2: #7ba1ff;
+  --vp-c-brand-3: #5b8cff;
+  --vp-c-brand-soft: rgba(91, 140, 255, 0.16);
+
+  /* 手册专用语义色 */
+  --whb-ok: #37d6a0;
+  --whb-wait: #ffb454;
+  --whb-no: #ff6b6b;
+  --whb-eco: #28b894;
+}
+
+/* 语义色工具类（阶梯表/路径卡用） */
+.whb-ok { color: var(--whb-ok); }
+.whb-wait { color: var(--whb-wait); }
+.whb-no { color: var(--whb-no); }
+.whb-eco { color: var(--whb-eco); }

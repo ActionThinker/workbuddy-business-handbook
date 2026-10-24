@@ -1,0 +1,14 @@
+{
+  "name": "workbuddy-business-handbook",
+  "version": "0.1.0",
+  "private": true,
+  "description": "用 WorkBuddy 赚钱的实战开源手册（社区共创版 · 非官方）——7 级赚钱阶梯 L0–L6，从超级个体到超级组织",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
