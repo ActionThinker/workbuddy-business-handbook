@@ -29,6 +29,7 @@ export default defineConfig({
       { text: '章节模块', link: '/modules' },
       { text: '付费专区', link: '/paid' },
       { text: '人才池', link: '/talent' },
+      { text: '社区共建', link: '/contribute' },
       { text: '关于', link: '/about' },
     ],
     footer: {
