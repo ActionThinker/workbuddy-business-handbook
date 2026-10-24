@@ -35,3 +35,7 @@ npm run docs:build    # 构建
 - 内容：CC BY-NC 4.0（保留署名，非商业使用）
 - 欢迎 Issue / PR / 复刻；素材导入区 `source/` 不入库
 - 联系：Lu@NexFDE.com
+
+## 运营方
+
+WorkBuddyLink · 联系：Lu@NexFDE.com

@@ -33,7 +33,7 @@ export default defineConfig({
     ],
     footer: {
       message: '本站内容受版权保护，未经授权禁止抓取、复制或用于模型训练',
-      copyright: '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：海角（WorkBuddyLink）',
+      copyright: '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：WorkBuddyLink',
     },
     outline: { level: [2, 3], label: '本页目录' },
     lastUpdated: { text: '最近更新' },

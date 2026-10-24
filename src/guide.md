@@ -68,7 +68,7 @@
 ### 路径 C 考证 + 培训
 
 - **适合谁**：有讲课能力或行业背书的人
-- **第一步**：考取官方认证增加个人背书——**腾讯云 FDE 认证**（面向所有人开放、可独立报考）或 OPC 从业者认证 → 打磨一门"AI 办公提效"课
+- **第一步**：从腾讯官方认证四部曲选一级报考增加个人背书——[OPC 从业者](https://cloud.tencent.com/edu/cert/developer/1056)（入门）→ [应用师 CEA](https://cloud.tencent.com/edu/training/cert/detail?type=CEA)（进阶）→ [CodeBuddy 架构师 CCB](https://cloud.tencent.com/edu/training/cert/detail?type=CCB)（专家）→ [FDE](https://cloud.tencent.com/edu/training/cert/detail?type=CFD)（交付）→ 打磨一门"AI 办公提效"课
 - **成本**：低（考试+时间）
 - **收入**：企业内训、公开课、训练营
 - **周期**：2–4 周拿证，即可接课
