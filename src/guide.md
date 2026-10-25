@@ -132,4 +132,4 @@
 
 ---
 
-**路径一图版**：5 条路 + 7 天启动包的可视化大图 → <a href="/path-map.html">路径地图</a>（独立页面）。
+**路径一图版**：5 条路 + 7 天启动包的可视化大图 → <a href="/path-map.html" target="_blank" rel="noopener">路径地图</a>（独立页面）。

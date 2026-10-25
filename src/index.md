@@ -51,5 +51,5 @@ features:
 
 ## 可视化大图
 
-- <a href="/ladder-map.html">赚钱阶梯图（独立页面）</a>
-- <a href="/path-map.html">路径地图（独立页面）</a>
+- <a href="/ladder-map.html" target="_blank" rel="noopener">赚钱阶梯图（独立页面）</a>
+- <a href="/path-map.html" target="_blank" rel="noopener">路径地图（独立页面）</a>
