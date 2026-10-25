@@ -1,6 +1,7 @@
 # WorkBuddy 生意手册 (handbook.workbuddylink.com)
 
 > 面向想借 WorkBuddy 生态做生意的个人（超级个体 / OPC）的免费开源实战手册与入口站：7 级赚钱阶梯、5 条路径指南与 7 天启动包、三卷 How-to、免费社区与社区共建。
+> 作者/发起人：陈露 @ ActionThinker（https://www.actionthinker.com/）
 > 社区共创版，非 WorkBuddy 官方文档；官方机制以各官方页面最新说明为准；内容 CC BY-NC 4.0。
 
 ## 页面

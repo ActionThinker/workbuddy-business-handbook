@@ -1,6 +1,7 @@
 # WorkBuddy 生意手册 — 完整内容
 
 > 面向想借 WorkBuddy 生态做生意的个人（超级个体 / OPC）的免费开源实战手册与入口站。
+> 作者/发起人：陈露 @ ActionThinker（https://www.actionthinker.com/）
 > 社区共创版，非 WorkBuddy 官方文档；官方机制以各官方页面最新说明为准。
 > 站点: https://handbook.workbuddylink.com/ ｜ 运营方: WorkBuddyLink ｜ 许可: CC BY-NC 4.0
 
@@ -14,6 +15,8 @@ URL: https://handbook.workbuddylink.com/
 > **7 级赚钱阶梯 · 三卷 How-to · 零公司可起步**
 >
 > **社区共创版 · 非 WorkBuddy 官方文档。** 文中官方机制以各官方页面最新口径为准；收入区间为参考，非承诺。
+>
+> **作者与发起人**：陈露 @ ActionThinker —— [www.actionthinker.com](https://www.actionthinker.com/)
 >
 > 想借 WorkBuddy 生态做生意的个人（超级个体 / OPC），在这里拿到从 0 到 1 的路径、方法与同行的人。
 >
@@ -460,6 +463,7 @@ URL: https://handbook.workbuddylink.com/book/
 # 正文总纲：怎么用这本书赚到钱
 
 > 先给结论：赚钱 = 模式 × 落脚点 × 阶梯。把这三件事钉死，再按你现在站的位置选一章照做——卷一（超级个体）已全部上线。
+> **本书作者**：陈露（Action Thinker）· 开源计划发起人 —— [www.actionthinker.com](https://www.actionthinker.com/)
 > 社区共创版，非 WorkBuddy 官方文档；文中官方机制以各官方页面最新说明为准。
 
 ## 0. 结论先行（三句话）
@@ -1281,6 +1285,14 @@ URL: https://handbook.workbuddylink.com/about
 - **社区共建**：提交赚钱线索与案例、推荐资源站、参与百人共创——手册是大家一起写成的，被采纳的贡献标注署名。
 
 **从一个个体的问题出发 → 到一群人的共同实践 → 再到让「人人开启 AI 小生意」成为一场社会级的机会**——这是我们的 Why、How、What。
+
+## 作者与开源计划
+
+本手册由 **陈露（Action Thinker）** 发起并撰写——个人站：[www.actionthinker.com](https://www.actionthinker.com/)。
+
+- **作者**：陈露 @ ActionThinker，长期在一线使用、布道 WorkBuddy，把跑过的路、看到的信号、踩过的坑整理成这套框架；
+- **开源计划发起人**：本手册作为开源计划持续维护，内容 CC BY-NC 4.0 开放——欢迎转载、引用（署名并注明来源）；
+- **对外分享**：讲课、分享、推荐时，欢迎引用本手册：<https://handbook.workbuddylink.com/>。
 
 ## 站点定位声明
 

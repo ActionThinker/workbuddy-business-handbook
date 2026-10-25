@@ -93,6 +93,14 @@ const websiteLd = {
   inLanguage: 'zh-CN',
   publisher: { '@id': `${SITE}/#org` },
 }
+const authorLd = {
+  '@type': 'Person',
+  '@id': `${SITE}/#author`,
+  name: '陈露',
+  alternateName: 'Action Thinker',
+  url: 'https://www.actionthinker.com/',
+  description: '《WorkBuddy 生意手册》作者与开源计划发起人。',
+}
 // 路径指南页 FAQ 结构数据
 const faqLd = {
   '@type': 'FAQPage',
@@ -157,7 +165,7 @@ export default defineConfig({
     if (!meta) return []
     const url = SITE + key
     const graph: Record<string, unknown>[] = []
-    if (key === '/') graph.push(websiteLd, orgLd)
+    if (key === '/') graph.push(websiteLd, orgLd, authorLd)
     graph.push(
       {
         '@type': 'WebPage',
@@ -166,6 +174,7 @@ export default defineConfig({
         name: meta.title,
         description: meta.desc,
         isPartOf: { '@id': `${SITE}/#website` },
+        author: { '@id': `${SITE}/#author` },
         inLanguage: 'zh-CN',
       },
       {
@@ -249,7 +258,8 @@ export default defineConfig({
     },
     footer: {
       message: '本站内容受版权保护，未经授权禁止抓取、复制或用于模型训练',
-      copyright: '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：WorkBuddyLink',
+      copyright:
+        '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：WorkBuddyLink · 作者/发起人：<a href="https://www.actionthinker.com/" target="_blank" rel="noopener">陈露 @ ActionThinker</a>',
     },
     outline: { level: [2, 3], label: '本页目录' },
     lastUpdated: { text: '最近更新' },
