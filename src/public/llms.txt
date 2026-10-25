@@ -7,7 +7,7 @@
 
 - [首页](https://handbook.workbuddylink.com/): 站点入口，7 级赚钱阶梯 + 三卷 How-to + 零公司可起步，社区共创声明
 - [赚钱阶梯](https://handbook.workbuddylink.com/ladder): L0–L6 七级体系——9 种赚钱模式、11 种可卖落脚点、每级行动待办；对齐官方「超级个体→超级团队→超级组织」；官方双信号：收入变现（个人上架付费技能/专家）+ FDE 精英班与认证
-- [路径指南](https://handbook.workbuddylink.com/guide): 没公司也能开始的 5 条路（资产上架/内容推荐/考证培训/渠道接单/专家陪跑）+ 7 天启动包 + 常见问题 5 条
+- [路径指南](https://handbook.workbuddylink.com/guide): 没公司也能开始的 5 条路（资产上架/内容推荐/考证培训/渠道接单/专家陪跑）+ 7 天启动包 + 常见问题 3 条
 - [章节模块](https://handbook.workbuddylink.com/modules): 三卷 How-to 章节地图（超级个体→超级团队→超级组织）
 - [社区](https://handbook.workbuddylink.com/community): 免费加入；收获=认知刷新/路径资源参考/经验沉淀/交朋友/创建 AI 资产/获客变现/影响力；五原则=实用、利他、共享、协同、共建
 - [社区共建](https://handbook.workbuddylink.com/contribute): 提交赚钱线索与案例（被采纳标注贡献者署名）、推荐资源站与学习站、「百人共创」计划

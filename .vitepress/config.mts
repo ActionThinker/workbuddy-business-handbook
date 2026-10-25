@@ -64,22 +64,6 @@ const faqLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: '没公司能收钱吗？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '能。前期用平台托管交易（接单平台/内容平台）或个人对私合规收款；赚到钱再注册个体工商户（线上极简）。开放平台个人入驻、内容/推荐都无需主体。',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: '要交税吗？',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: '要，但个体户税率低、有起征点。原则是先小规模合规，再扩大。',
-      },
-    },
-    {
-      '@type': 'Question',
       name: '多久能赚到第一笔？',
       acceptedAnswer: {
         '@type': 'Answer',
