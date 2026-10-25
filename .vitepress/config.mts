@@ -5,7 +5,7 @@ const SITE_FP = 'whb-20261024-7f3a9c'
 const SITE = 'https://handbook.workbuddylink.com'
 
 // 每页标题/描述（OG + JSON-LD + canonical 共用）
-const PAGES: Record<string, { title: string; desc: string }> = {
+const PAGES: Record<string, { title: string; desc: string; og?: string }> = {
   '/': {
     title: 'WorkBuddy 生意手册：用 WorkBuddy 赚钱，从超级个体开始',
     desc: '免费开源实战手册与入口站：7 级赚钱阶梯 L0–L6、5 条路径指南与 7 天启动包、三卷 How-to——没公司、没资质，也能借 WorkBuddy 生态起步。社区共创版，非官方文档。',
@@ -13,10 +13,12 @@ const PAGES: Record<string, { title: string; desc: string }> = {
   '/ladder': {
     title: '赚钱阶梯：L0–L6 七级体系 | WorkBuddy 生意手册',
     desc: '9 种赚钱模式 + 11 种可卖落脚点 + 七级成长阶梯：L0–L3 零公司零资质今天就能动手，L4 考证增加个人背书，L5 渠道伙伴，L6 生态供应链。',
+    og: 'og-ladder.png',
   },
   '/guide': {
     title: '路径指南：没公司也能开始的 5 条路 | WorkBuddy 生意手册',
     desc: '资产上架 / 内容推荐 / 考证培训 / 渠道接单 / 专家陪跑，5 条路径全部映射 WorkBuddy 真实生态机制，附 7 天启动包与常见问题。',
+    og: 'og-guide.png',
   },
   '/modules': {
     title: '章节模块：三卷 How-to | WorkBuddy 生意手册',
@@ -25,6 +27,7 @@ const PAGES: Record<string, { title: string; desc: string }> = {
   '/community': {
     title: '社区：再小的个体，都能参与 AI 这门生意 | WorkBuddy 生意手册',
     desc: '免费加入：认知刷新、路径资源参考、经验沉淀、交朋友、创建 AI 资产、获客变现、影响力。社区五原则：实用、利他、共享、协同、共建。',
+    og: 'og-community.png',
   },
   '/contribute': {
     title: '社区共建：提交线索、推荐资源、百人共创 | WorkBuddy 生意手册',
@@ -33,6 +36,7 @@ const PAGES: Record<string, { title: string; desc: string }> = {
   '/about': {
     title: '关于：缘起、定位与开源许可 | WorkBuddy 生意手册',
     desc: '为什么做这份手册（黄金圈）：一个朴素问题到群体需求的缘起、站点定位声明、非官方声明、CC BY-NC 4.0 开源与许可。',
+    og: 'og-about.png',
   },
   '/assets': {
     title: '资产模板库 | WorkBuddy 生意手册',
@@ -41,6 +45,7 @@ const PAGES: Record<string, { title: string; desc: string }> = {
   '/book/': {
     title: '正文总纲：怎么用这本书赚到钱 | WorkBuddy 生意手册',
     desc: '三卷 13 章正文入口：读者自测（你现在是 L 几）、按阶梯选章、全书地图。卷一·超级个体 8 章已上线，逐章可照做。',
+    og: 'og-book.png',
   },
   '/book/ch1': {
     title: '第1章 认知：WorkBuddy 能力地图 | WorkBuddy 生意手册',
@@ -196,11 +201,11 @@ export default defineConfig({
       ['meta', { property: 'og:url', content: url }],
       ['meta', { property: 'og:site_name', content: 'WorkBuddy 生意手册' }],
       ['meta', { property: 'og:locale', content: 'zh_CN' }],
-      ['meta', { property: 'og:image', content: `${SITE}/og.png` }],
+      ['meta', { property: 'og:image', content: `${SITE}/${meta.og ?? 'og.png'}` }],
       ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
       ['meta', { name: 'twitter:title', content: meta.title }],
       ['meta', { name: 'twitter:description', content: meta.desc }],
-      ['meta', { name: 'twitter:image', content: `${SITE}/og.png` }],
+      ['meta', { name: 'twitter:image', content: `${SITE}/${meta.og ?? 'og.png'}` }],
       ['script', { type: 'application/ld+json' }, JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })],
     ]
   },
