@@ -14,6 +14,18 @@
 - [资产模板库](https://handbook.workbuddylink.com/assets): 报价单/合同/话术/检查表模板
 - [关于](https://handbook.workbuddylink.com/about): 缘起（黄金圈）、站点定位、非官方声明、开源与许可
 
+## 手册正文（卷一已上线）
+
+- [正文总纲](https://handbook.workbuddylink.com/book/): 全书地图（三卷 13 章）+ 读者自测表（你现在是 L 几）+ 按阶梯选章
+- [第1章 认知：WorkBuddy 能力地图](https://handbook.workbuddylink.com/book/ch1): 能力积木七件套 + 买方四层 + 机会画布模板
+- [第2章 L0 自用觉醒：先让自己提效](https://handbook.workbuddylink.com/book/ch2): 三类高频痛点场景 + 个人提效清单模板
+- [第3章 L1 资产沉淀：把岗位经验变原料](https://handbook.workbuddylink.com/book/ch3): 高频/有方法/可复用三标准 + 四种资产形态 + 知识资产提取清单
+- [第4章 L2 资产变现：开放平台上架](https://handbook.workbuddylink.com/book/ch4): 官方「收入变现」六步上架流程 + 开源引流付费分层策略 + 资产包结构模板
+- [第5章 专家孵化：把自己变成可被召唤的专家](https://handbook.workbuddylink.com/book/ch5): Expert 三步封装 + 三重收入叠加 + 专家人设卡模板
+- [第6章 L3 内容+陪跑：带人赚钱](https://handbook.workbuddylink.com/book/ch6): 实战记录型账号 + 官方邀请计划（Credits 积分）+ 免费带3人→收费小班 + 内容日历模板
+- [第7章 L4 培训+咨询：考证背书后放大](https://handbook.workbuddylink.com/book/ch7): 认证四部曲 + AI 办公课五模块 + 企业内训 SOP + 培训报价单模板
+- [第8章 合规安心：个人视角的三条底线](https://handbook.workbuddylink.com/book/ch8): 身份边界/数据保密/合同先行 + 合同/保密/报价单要点模板
+
 ## 可视化大图
 
 - [赚钱阶梯图](https://handbook.workbuddylink.com/ladder-map.html): L0–L6 七级阶梯可视化

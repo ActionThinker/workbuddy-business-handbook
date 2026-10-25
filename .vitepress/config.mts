@@ -38,6 +38,42 @@ const PAGES: Record<string, { title: string; desc: string }> = {
     title: '资产模板库 | WorkBuddy 生意手册',
     desc: '报价单、合同、话术、检查表——做 WorkBuddy 小生意用得上的模板清单。',
   },
+  '/book/': {
+    title: '正文总纲：怎么用这本书赚到钱 | WorkBuddy 生意手册',
+    desc: '三卷 13 章正文入口：读者自测（你现在是 L 几）、按阶梯选章、全书地图。卷一·超级个体 8 章已上线，逐章可照做。',
+  },
+  '/book/ch1': {
+    title: '第1章 认知：WorkBuddy 能力地图 | WorkBuddy 生意手册',
+    desc: '七件套能力积木（Skill/Expert/连接器/Buddy 应用/模板工作流/Explore/硬件）+ 买方四层 + 机会画布模板——赚钱的第一步是认清能力。',
+  },
+  '/book/ch2': {
+    title: '第2章 L0 自用觉醒：先让自己提效 | WorkBuddy 生意手册',
+    desc: '自己先用好是赚钱的地基：三类高频痛点场景、第一步清单、个人提效清单模板，零成本零资质起步。',
+  },
+  '/book/ch3': {
+    title: '第3章 L1 资产沉淀：把岗位经验变原料 | WorkBuddy 生意手册',
+    desc: '什么经验值得沉淀（高频/有方法/可复用三标准）、四种资产形态、知识资产提取清单模板。',
+  },
+  '/book/ch4': {
+    title: '第4章 L2 资产变现：开放平台上架 | WorkBuddy 生意手册',
+    desc: '官方「收入变现」已上线：个人可上架付费技能/专家。六步上架流程、开源引流+付费分层策略、定价参考、资产包结构模板。',
+  },
+  '/book/ch5': {
+    title: '第5章 专家孵化：把自己变成可被召唤的专家 | WorkBuddy 生意手册',
+    desc: 'Expert 专家智能体=超级个体最高杠杆：三步封装（边界/知识结构/对话口径）、三重收入叠加、专家人设卡模板。',
+  },
+  '/book/ch6': {
+    title: '第6章 L3 内容+陪跑：带人赚钱 | WorkBuddy 生意手册',
+    desc: '零成本路径：实战记录型账号定位、周更选题法、官方邀请计划（Credits 积分）、免费带3人→收费小班闭环、内容日历模板。',
+  },
+  '/book/ch7': {
+    title: '第7章 L4 培训+咨询：考证背书后放大 | WorkBuddy 生意手册',
+    desc: '腾讯官方认证四部曲（OPC/CEA/CCB/FDE）、AI 办公课五模块骨架、企业内训 SOP、报价三要素、培训报价单模板。',
+  },
+  '/book/ch8': {
+    title: '第8章 合规安心：个人视角的三条底线 | WorkBuddy 生意手册',
+    desc: '身份边界（非官方声明）、数据与保密、合同先行——三条底线 + 标准服务合同/保密条款/报价单要点模板。',
+  },
 }
 
 // 结构数据基础节点
@@ -112,7 +148,11 @@ export default defineConfig({
   transformHead(ctx: { page: string }): HeadConfig[] {
     // 每页注入 canonical + OG/Twitter + JSON-LD（WebPage/Breadcrumb，首页加 WebSite+Org，路径指南加 FAQPage）
     const route = (ctx.page || '').replace(/\\/g, '/').replace(/\.md$/, '')
-    const key = !route || route === 'index' ? '/' : `/${route}`
+    const key = !route || route === 'index'
+      ? '/'
+      : route.endsWith('/index')
+        ? `/${route.slice(0, -6)}/`
+        : `/${route}`
     const meta = PAGES[key]
     if (!meta) return []
     const url = SITE + key
@@ -165,11 +205,48 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '赚钱阶梯', link: '/ladder' },
       { text: '路径指南', link: '/guide' },
+      { text: '手册正文', link: '/book/' },
       { text: '章节模块', link: '/modules' },
       { text: '社区', link: '/community' },
       { text: '社区共建', link: '/contribute' },
       { text: '关于', link: '/about' },
     ],
+    sidebar: {
+      '/book/': [
+        { text: '正文总纲（必读）', link: '/book/' },
+        {
+          text: '卷一 · 超级个体（L0–L4）',
+          collapsed: false,
+          items: [
+            { text: '第1章 认知：能力地图 ★', link: '/book/ch1' },
+            { text: '第2章 L0 自用觉醒 ★', link: '/book/ch2' },
+            { text: '第3章 L1 资产沉淀 ★', link: '/book/ch3' },
+            { text: '第4章 L2 资产变现 ★', link: '/book/ch4' },
+            { text: '第5章 专家孵化 ★', link: '/book/ch5' },
+            { text: '第6章 L3 内容+陪跑 ★', link: '/book/ch6' },
+            { text: '第7章 L4 培训+咨询 ★', link: '/book/ch7' },
+            { text: '第8章 合规安心 ★', link: '/book/ch8' },
+          ],
+        },
+        {
+          text: '卷二 · 超级团队（L4–L5）',
+          collapsed: true,
+          items: [
+            { text: '第9章 从个体到团队（即将发布）' },
+            { text: '第10章 渠道伙伴（即将发布）' },
+            { text: '第11章 区域服务商（即将发布）' },
+          ],
+        },
+        {
+          text: '卷三 · 超级组织（L5–L6）',
+          collapsed: true,
+          items: [
+            { text: '第12章 生态价值供应链（即将发布）' },
+            { text: '第13章 组织落地（即将发布）' },
+          ],
+        },
+      ],
+    },
     footer: {
       message: '本站内容受版权保护，未经授权禁止抓取、复制或用于模型训练',
       copyright: '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：WorkBuddyLink',
