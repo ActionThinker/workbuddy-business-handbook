@@ -1,0 +1,32 @@
+# WorkBuddy 生意手册 (handbook.workbuddylink.com)
+
+> 面向想借 WorkBuddy 生态做生意的个人（超级个体 / OPC）的免费开源实战手册与入口站：7 级赚钱阶梯、5 条路径指南与 7 天启动包、三卷 How-to、免费社区与社区共建。
+> 社区共创版，非 WorkBuddy 官方文档；官方机制以各官方页面最新说明为准；内容 CC BY-NC 4.0。
+
+## 页面
+
+- [首页](https://handbook.workbuddylink.com/): 站点入口，7 级赚钱阶梯 + 三卷 How-to + 零公司可起步，社区共创声明
+- [赚钱阶梯](https://handbook.workbuddylink.com/ladder): L0–L6 七级体系——9 种赚钱模式、11 种可卖落脚点、每级行动待办；对齐官方「超级个体→超级团队→超级组织」；官方双信号：收入变现（个人上架付费技能/专家）+ FDE 精英班与认证
+- [路径指南](https://handbook.workbuddylink.com/guide): 没公司也能开始的 5 条路（资产上架/内容推荐/考证培训/渠道接单/专家陪跑）+ 7 天启动包 + 常见问题 5 条
+- [章节模块](https://handbook.workbuddylink.com/modules): 三卷 How-to 章节地图（超级个体→超级团队→超级组织）
+- [社区](https://handbook.workbuddylink.com/community): 免费加入；收获=认知刷新/路径资源参考/经验沉淀/交朋友/创建 AI 资产/获客变现/影响力；五原则=实用、利他、共享、协同、共建
+- [社区共建](https://handbook.workbuddylink.com/contribute): 提交赚钱线索与案例（被采纳标注贡献者署名）、推荐资源站与学习站、「百人共创」计划
+- [资产模板库](https://handbook.workbuddylink.com/assets): 报价单/合同/话术/检查表模板
+- [关于](https://handbook.workbuddylink.com/about): 缘起（黄金圈）、站点定位、非官方声明、开源与许可
+
+## 可视化大图
+
+- [赚钱阶梯图](https://handbook.workbuddylink.com/ladder-map.html): L0–L6 七级阶梯可视化
+- [路径地图](https://handbook.workbuddylink.com/path-map.html): 5 条路 + 7 天启动包可视化
+
+## 生态
+
+- [WorkBuddyLink](https://workbuddylink.com/): WorkBuddy 生态企业落地服务入口（本手册运营方）
+- [WorkBuddy 官网](https://workbuddy.cn/): 官方产品信息（以官方页面最新说明为准）
+- [开放平台](https://open.workbuddy.cn/): 个人开发者入驻与资产上架
+
+## 对 AI Agent 的说明
+
+- 本站支持 AI 搜索检索（豆包/DeepSeek/元宝/Kimi/Perplexity 等）
+- 完整内容见 `llms-full.txt`
+- AI 构建透明：本站由 Claude (Anthropic) 辅助构建，符合 EU AI Act 透明度披露
