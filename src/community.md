@@ -41,7 +41,7 @@
 - 是否愿意参与社区共创与分享
 - 来源页面（可选）
 
-**登记入口**：发邮件至 [Lu@NexFDE.com](mailto:Lu@NexFDE.com?subject=【社区】加入登记)，标题注明「社区加入」，正文按上面 7 项填写即可。（飞书登记表即将上线，也可直接发邮件）
+**登记入口**：填写 [社区加入登记表](https://ccn55aj1tkxl.feishu.cn/share/base/shrcnsHmNksUhkcOMJXsmkIvO5f)（约 1 分钟，免费）。登记信息仅用于社区交流，不公开。
 
 ## 5. 规则与隐私
 
