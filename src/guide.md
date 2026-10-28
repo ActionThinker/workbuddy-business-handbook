@@ -61,7 +61,7 @@
 
 - **适合谁**：爱分享、有账号运营习惯的人
 - **第一步**：起一个 WorkBuddy 实战账号（视频号/小红书/公众号），周更 2 篇；挂官方邀请链接（以官方最新说明为准）
-- **行动**：[点此拿官方邀请链接](https://www.workbuddy.cn/events/invite?inviteCode=xh7ekcwz3m5s4tr)（好友注册与付费，双方都可得 Credits 积分）
+- **行动**：[点此拿官方邀请链接](https://www.workbuddy.cn/events/invite?inviteCode=xh7ekcwz3m5s4tr){data-track="invite_link"}（好友注册与付费，双方都可得 Credits 积分）
 - **成本**：零
 - **收入**：广告 + 社群 + 邀请积分（推荐奖励为 Credits 积分，需叠加其他路径变现）
 - **周期**：1 个月起有稳定流量
@@ -102,7 +102,7 @@
 - [ ] **Day 2** 列出你的 3 个"最常被问/最常做"的工作流，选 1 个做资产
 - [ ] **Day 3** 起一个内容账号，发第 1 篇"我用 WorkBuddy 做了 XX"
 - [ ] **Day 4** 把 Day 2 的工作流封装成第 1 个 Skill / 模板草稿
-- [ ] **Day 5** [点此拿官方邀请链接](https://www.workbuddy.cn/events/invite?inviteCode=xh7ekcwz3m5s4tr)，挂到账号简介（以官方最新说明为准）
+- [ ] **Day 5** [点此拿官方邀请链接](https://www.workbuddy.cn/events/invite?inviteCode=xh7ekcwz3m5s4tr){data-track="invite_link"}，挂到账号简介（以官方最新说明为准）
 - [ ] **Day 6** 找 3 个熟人/同行，免费帮他们用 WorkBuddy 解决 1 个问题（攒案例）
 - [ ] **Day 7** 复盘：哪条路反馈最好，下月主选它
 

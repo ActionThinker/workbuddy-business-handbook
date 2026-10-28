@@ -4,6 +4,12 @@ import { defineConfig, type HeadConfig } from 'vitepress'
 const SITE_FP = 'whb-20261024-7f3a9c'
 const SITE = 'https://handbook.workbuddylink.com'
 
+// CF Web Analytics beacon token（页面级 UV/PV/来源渠道）。
+// 留空 = 不注入 beacon（事件级埋点 wbl-track.js 不受影响，已可用）。
+// 配置步骤：dash.cloudflare.com → 数据分析 → Web Analytics → Add a site 填 handbook.workbuddylink.com
+// → 部署方式选「启用并安装 JS 片段」→ 拿到 token 贴到下面 → 重新 build + push（两张静态地图页需手工补注入）。
+const CF_BEACON_TOKEN = ''
+
 // 每页标题/描述（OG + JSON-LD + canonical 共用）
 const PAGES: Record<string, { title: string; desc: string; og?: string }> = {
   '/': {
@@ -157,6 +163,11 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'noai,noimageai' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'icon', href: '/favicon.svg' }],
+    // CTA 事件级埋点：data-track 点击 → sendBeacon → stats.workbuddylink.com Worker → Analytics Engine
+    ['script', { src: '/wbl-track.js', defer: '' }, ''],
+    ...(CF_BEACON_TOKEN
+      ? [['script', { type: 'module', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': `{"token": "${CF_BEACON_TOKEN}"}` }]]
+      : []),
   ],
   transformHead(ctx: { page: string }): HeadConfig[] {
     // 每页注入 canonical + OG/Twitter + JSON-LD（WebPage/Breadcrumb，首页加 WebSite+Org，路径指南加 FAQPage）
@@ -262,7 +273,7 @@ export default defineConfig({
       ],
     },
     footer: {
-      message: '本站内容受版权保护，未经授权禁止抓取、复制或用于模型训练',
+      message: '内容许可 CC BY-NC 4.0 · 欢迎转载引用（署名注明来源）· 自动抓取 / 商业使用 / AI 训练需另行授权',
       copyright:
         '社区共创版 · 非 WorkBuddy 官方文档 · 运营方：WorkBuddyLink · 作者/发起人：<a href="https://www.actionthinker.com/" target="_blank" rel="noopener">陈露 @ ActionThinker</a>',
     },
